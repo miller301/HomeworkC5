@@ -1,4 +1,4 @@
-﻿int[] CreateArray(int size)  // принимает размер массива и возвращает сгенерированный массив
+﻿int[] CreateArray(int size) 
 {
     int[] array = new int[size];
     for (int i = 0; i < size; i++)
@@ -8,10 +8,9 @@
 
 void PrintArray(int[] array)
 {
-    foreach (int el in array)   //этот цикл только для просмотра и тут нет индексов
+    foreach (int el in array)   
         Console.Write($"{el} ");
-    // for (int i = 0; i < array.Length; i++)
-    //     Console.Write($"{array[i]} ");
+   
     Console.WriteLine();
 }
 int n = 0;
